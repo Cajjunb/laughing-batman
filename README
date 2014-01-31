@@ -1,0 +1,27 @@
+3 estágios de um arquivo \
+
+Working
+
+Staging
+
+History
+
+
+O git só rastreia os arquivos se você adiciona-los
+primeiro.
+
+git add <nome_do_arquivo>
+
+git diff 
+lista as diferenças entre arquivos no terminal
+- indica a linha na versão anterior
++ indica a linha na versão final
+
+Ver o log do histórico do arquivo é 
+git log
+e 
+git log -p  (diz quais os arquivo foram mudados e as linhas)
+
+git checkout <numero do commit>  serve para descartar as mudanças
+
+git checkout master para voltar para a versão atual do código
